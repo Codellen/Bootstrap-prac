@@ -1,0 +1,38 @@
+.media::after{
+    content: 'XS';
+    font-size:40px;
+    font-weight:bold;
+    color:red;
+    display:block;
+}
+@media (min-width:576px){
+    .media::after{
+        content:'SM'
+    }
+}
+@media (min-width:768px){
+    .media::after{
+        content:'M'
+    }
+}
+@media (min-width:992px){
+    .media::after{
+        content:'LG'
+    }
+}
+@media (min-width:1200px){
+    .media::after{
+        content:'XL'
+    }
+}
+@media (min-width:1400px){
+    .media::after{
+        content:'XXL'
+    }
+}
+.test{
+    background-color: chocolate;
+    height: 50px;
+    border:2px solid black;
+    
+}

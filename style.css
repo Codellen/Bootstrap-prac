@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+.container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    padding:10px;
+    background-color: black;
+    
+}
+.material-icons{
+    color:white !important;
+}
+a{
+    color: white;
+    text-decoration: none;;
+}
+.menu{
+    display:none !important;
+}
+@media (max-width:700px){
+    a{
+        display:none;
+    }
+    .menu{
+        display:block !important ;
+    }
+}
